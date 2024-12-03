@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="calc1.jpg"type="image/x-icon">
+  <title>Calculator</title>
+</head>
+<body>
+    <!-- here i created a class for saving time while styling -->
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <!-- here button tag is used for describing each box of number  -->
+    <div class="buttons">
+      <button class="btn" onclick="clearDisplay()">AC</button>
+      <button class="btn" onclick="addToDisplay('%')">%</button>
+      <button class="btn" onclick="square()">x²</button>
+      <button class="btn" onclick="addToDisplay('/')">/</button>
+      <button class="btn" onclick="addToDisplay('7')">7</button>
+      <button class="btn" onclick="addToDisplay('8')">8</button>
+      <button class="btn" onclick="addToDisplay('9')">9</button>
+      <button class="btn" onclick="addToDisplay('*')">*</button>
+      <button class="btn" onclick="addToDisplay('4')">4</button>
+      <button class="btn" onclick="addToDisplay('5')">5</button>
+      <button class="btn" onclick="addToDisplay('6')">6</button>
+      <button class="btn" onclick="addToDisplay('-')">-</button>
+      <button class="btn" onclick="addToDisplay('1')">1</button>
+      <button class="btn" onclick="addToDisplay('2')">2</button>
+      <button class="btn" onclick="addToDisplay('3')">3</button>
+      <button class="btn" onclick="addToDisplay('+')">+</button>
+      <button class="btn" onclick="addToDisplay('0')">0</button>
+      <button class="btn" onclick="addToDisplay('.')">.</button>
+      <button class="btn" onclick="calculate()">=</button>
+      <button class="btn" onclick="cube()">x3</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
